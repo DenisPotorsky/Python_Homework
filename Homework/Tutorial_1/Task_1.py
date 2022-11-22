@@ -8,11 +8,11 @@
 - 1 -> нет
 '''
 
-day = int(input('Enter the number: '))
+day = int(input('Введите число: '))
 
 if day < 1 or day > 7:
-    print('ERROR')
+    print('Ошибка')
 elif day == 6 or day == 7:
-    print('yes')
+    print('да')
 else:
-    print('no')
+    print('нет')

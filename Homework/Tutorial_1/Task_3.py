@@ -13,12 +13,12 @@ x = int(input('Input x: '))
 y = int(input('Input y: '))
 
 if x == 0 or y == 0:
-    print('Не корректные данные')
+    print('Введены некорректные данные')
 elif x > 0 and y > 0:
-    print('1')
+    print('1 четверть')
 elif x < 0 and y > 0:
-    print('2')
+    print('2 четверть')
 elif x < 0 and y < 0:
-    print('3')
+    print('3 четверь')
 else:
-    print('4')
+    print('4 четверть')
