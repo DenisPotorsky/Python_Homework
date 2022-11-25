@@ -10,6 +10,8 @@ n = int(input('Enter the number: '))
 
 result = 1
 
+lts = []
 for i in range(1, n + 1):
     result = result * i
-    print(result)
+    lts.append(result)
+print(lts)
