@@ -6,7 +6,22 @@
 - 0,56 -> 11
 '''
 
-x = list(input('Enter the number: '))
-print(f'Массив строк {x}')
-result = list(map(int, x))
-print(f'Массив чисел {result}')
+x = float(input('Введите число: '))
+x1 = list(str(x))
+x1.remove(".")
+print(f'Список строк: {x1}')
+
+list_int = list(map(int, x1))
+print(f'Список чисел: {list_int}')
+
+result = 0
+for i in list_int:
+    result += i
+
+print(f'Сумма цифр введенного числа: {result}')
+
+'''
+Можно 14 и 15 строку не писать,
+а сделать конвертацию в цикле.
+Сделал так ради вывода на 15-й строке :)
+'''

@@ -6,7 +6,7 @@
 Запрещено использовать функцию factorial из библиотеки math
 '''
 
-n = int(input('Enter the number: '))
+n = int(input('Введите число: '))
 
 result = 1
 
@@ -14,4 +14,4 @@ lts = []
 for i in range(1, n + 1):
     result = result * i
     lts.append(result)
-print(lts)
+print(f'Набор произведений чисел от 1 до N: {lts}')
