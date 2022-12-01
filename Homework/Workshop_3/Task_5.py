@@ -20,4 +20,5 @@ for j in range(1, length - 1):
     lst2.append(result)
 lst2.reverse()
 fibonacci = lst2 + lst1
+
 print(fibonacci)
