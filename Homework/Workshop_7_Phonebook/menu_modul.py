@@ -2,16 +2,18 @@ import import_export as imex
 import logger as lg
 import adding_an_entry
 
-print('1. Показать все записи.')
-print('2. Добавить новую запись.')
-print('3. Импорт')
-print('4. Экспорт')
-print('5. Выход из меню')
-
 
 def menu():
     while True:
+        print('1. Показать все записи.')
+        print('2. Добавить новую запись.')
+        print('3. Импорт')
+        print('4. Экспорт')
+        print('5. Выход из меню')
+        print()
+
         n = int(input('Выберите пункт меню: '))
+
         if n == 1:
             adding_an_entry.show_data()
 
