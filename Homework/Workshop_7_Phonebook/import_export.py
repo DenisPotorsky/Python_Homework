@@ -1,5 +1,5 @@
 def import_entry():
-    with open('temp_file.txt', 'r') as import_file:
+    with open('123.txt', 'r') as import_file:
         data = import_file.readlines()
         with open('data_file.txt', 'a') as file:
             for line in data:
